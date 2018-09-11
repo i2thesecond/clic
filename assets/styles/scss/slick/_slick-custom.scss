@@ -1,0 +1,53 @@
+//Custom css overrides for the slick slider
+
+//increase slick dot size
+.slick-dots li button:before
+{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+//centers images in the middle of slider
+.slick-slide img {
+  // height: calc(50vh - 100px);
+  // width: auto;
+  margin: 0 auto; /* it centers any block level element */
+}
+
+
+.nextArrowBtn{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    right: 0;
+}
+
+.prevArrowBtn{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 0;
+}
+
+.arrowBtnStyle {
+  font-size: .9rem;
+  padding: 0.5rem;
+  border: 1px solid transparent;
+  border-radius: 0;
+  transition: background-color .25s ease-out,color .25s ease-out;
+  text-align: center;
+  cursor: pointer;
+  background-color: $dark-gray;
+  color: #fefefe;
+  opacity: 0.7;
+  
+    &:hover {
+        opacity: 1.0;
+        background-color: $dark-gray;
+        cursor:pointer;
+    }
+    
+    @include breakpoint(medium) {
+    font-size: 1.5rem;
+    }
+}
