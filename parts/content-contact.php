@@ -34,13 +34,15 @@
       <div class="row">
         <div class="large-12 columns">
           <label>Please provide your comments or questions below
-            <textarea name="details" placeholder="Comments or Questions"></textarea>
+            <textarea rows="2" name="details" placeholder="Comments or Questions"></textarea>
           </label>
         </div>
       </div>
     </form>
-    <button class="button" data-close aria-label="Close reveal">Nevermind</button>
-    <input type="submit" class="button" value="Send Message">
+    <div class="float-right">
+      <button class="button" data-close aria-label="Close reveal">Nevermind</button>
+      <input type="submit" class="button" value="Send Message">
+    </div>
 
     <button class="close-button" data-close aria-label="Close reveal" type="button">
       <span aria-hidden="true">&times;</span>

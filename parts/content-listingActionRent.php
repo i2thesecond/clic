@@ -11,7 +11,7 @@
             <img class="float-center rent-listing-image-style" src="<?php echo get_template_directory_uri(); ?>/assets/images/calendar-512.png" alt="calendar image">
             <h5>1. Schedule a showing</h4>
             <p>Ask to see this location. Schedule an showing appointment today.</p>
-            <a>Contact Us for Scheduling</a>
+            <a data-toggle="contactModal">Contact Us for Scheduling</a>
             </div>
         </div>
         <div class="columns medium-3">
@@ -19,7 +19,7 @@
             <img class="float-center rent-listing-image-style" src="<?php echo get_template_directory_uri(); ?>/assets/images/pencil-512.png" alt="calendar image">
             <h5>2. Apply</h4>
            <p>Print and fill out the rent application. CLIC will perform a background check and renter history check.</p>
-           <a href="<?php echo get_template_directory_uri(); ?>/assets/files">Download Rent Application</a>
+           <a href="<?php echo get_template_directory_uri(); ?>/assets/files/CLIC_rent_application.pdf">Download Rent Application</a>
             </div>
         </div>
         <div class="columns medium-3">
